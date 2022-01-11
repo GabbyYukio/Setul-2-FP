@@ -435,7 +435,7 @@ namespace OrosFPSet1P1
             Console.Write("Dati valoarea lui n: ");
             n = int.Parse(Console.ReadLine());
 
-            if (prim(n) == false)
+            if (prim(n) == true)
                 Console.WriteLine("Numarul {0} nu are divizori proprii. ", n);
             else
             {
