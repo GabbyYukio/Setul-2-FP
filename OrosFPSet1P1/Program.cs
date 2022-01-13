@@ -57,6 +57,8 @@ namespace OrosFPSet1P1
                 else
                     Console.WriteLine("Solutiile sunt: x1={0} si x2={1}", (-b - Math.Sqrt(delta)) / (2 * a), (-b + Math.Sqrt(delta)) / (2 * a));
             }
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
         static void P3()
         {
@@ -72,6 +74,7 @@ namespace OrosFPSet1P1
             }
             else
                 Console.WriteLine("{0} impartit la {1} da catul {2} si restul {3}", x, k, x / k, x % k);
+            Console.WriteLine("Press enter to exit...");
             Console.ReadLine();
         }
         static void P4()
@@ -95,6 +98,7 @@ namespace OrosFPSet1P1
             }
             else
                 Console.WriteLine("Anul {0} este an obisnuit", y);
+            Console.WriteLine("Press enter to exit...");
             Console.ReadLine();
         }
         static bool apartine(int k, int n)
@@ -130,6 +134,7 @@ namespace OrosFPSet1P1
             }
             else
                 Console.WriteLine("Numarul nu are cel putin {0} termeni ", k);
+            Console.WriteLine("Press enter to exit...");
             Console.ReadLine();
         }
         static void schimbare(ref float a, ref float b)
@@ -150,6 +155,8 @@ namespace OrosFPSet1P1
 
             schimbare(ref a, ref b);
             Console.WriteLine("Valorile dupa swap sunt {0} si {1} ", a, b);
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
         static void schimbare_maibuna(ref float x,ref float y)
         {
@@ -169,6 +176,7 @@ namespace OrosFPSet1P1
 
             schimbare_maibuna(ref a, ref b);
             Console.WriteLine("Valorile dupa swap sunt {0} si {1} ", a, b);
+            Console.WriteLine("Press enter to exit...");
             Console.ReadLine();
 
         }
@@ -186,6 +194,7 @@ namespace OrosFPSet1P1
                     Console.WriteLine(" {0}");
                 d++;
             }
+            Console.WriteLine("Press enter to exit...");
             Console.Write("{0}", n);
         }
 
@@ -216,6 +225,7 @@ namespace OrosFPSet1P1
                 else
                     Console.WriteLine("Numarul {0} nu este prim", n);
             }
+            Console.WriteLine("Press enter to exit...");
             Console.ReadLine();
         }
 
@@ -231,6 +241,8 @@ namespace OrosFPSet1P1
                 Console.Write("{0}", n % 10);
                 n /= 10;
             }
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
 
         static void p12()
@@ -256,6 +268,8 @@ namespace OrosFPSet1P1
                 Console.WriteLine("Nu exista niciun numar intreg din intervalul [{0},{1}] divizibil cu {2}", a, b, n);
             else
                 Console.WriteLine("Exista {0} numere intregi divizile la {1} din intervalul [{2},{3}]", suma, n, a, b);
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
 
         static bool an_bisect(int y)
@@ -297,6 +311,8 @@ namespace OrosFPSet1P1
                 }
             }
             Console.WriteLine("Numarul de ani bisecti intre {0} si {1} este {2}", y1, y2, suma);
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
 
         static bool verificare_palindrom(int x)
@@ -321,6 +337,8 @@ namespace OrosFPSet1P1
                 Console.WriteLine("Numarul {0} este palindrom. ", n);
             else
                 Console.WriteLine("Numarul {0} nu este palindrom. ", n);
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
         static void ordonare(ref int x,ref int y)
         {
@@ -348,6 +366,8 @@ namespace OrosFPSet1P1
             ordonare(ref b, ref c);
 
             Console.WriteLine("{0}, {1}, {2}", a, b, c);
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
 
         static void p16()
@@ -380,6 +400,8 @@ namespace OrosFPSet1P1
             ordonare(ref d, ref e);
 
             Console.WriteLine("{0}, {1}, {2}, {3}, {4}", a,b, c, d, e);
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
         static int cmmdc_euclid(int x, int y)
         {
@@ -403,6 +425,7 @@ namespace OrosFPSet1P1
 
             Console.WriteLine("Cel mai mare divizor comun dintre {0} si {1} este {2}", a, b, cmmdc_euclid(a, b));
             Console.WriteLine("Iar cel mai mic multiplu comun este {0}", (a/cmmdc_euclid(a,b))*(b/cmmdc_euclid(a,b)));
+            Console.ReadLine();
         }
 
         static bool prim(int n)
@@ -458,6 +481,8 @@ namespace OrosFPSet1P1
                     d += 2;
                 }
             }
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
 
         static  void p20()
@@ -476,6 +501,8 @@ namespace OrosFPSet1P1
                 input=int.Parse(Console.ReadLine());
             }
             Console.WriteLine("Ai ghicit numarul!");
+            Console.WriteLine("Press enter to exit...");
+            Console.ReadLine();
         }
         static void Main(string[] args)
         {
