@@ -180,16 +180,13 @@ namespace OrosFPSet1P1
 
             int d = 2;
             Console.Write("Divizorii sunt: 1");
-            if(n%d==0)
-                Console.Write("{0} ",d);
-            d++;
             while(d<=n/2)
             {
                 if(n%d==0)
-                    Console.Write("{0} ",d);
-                d += 2;
+                    Console.WriteLine(" {0}");
+                d++;
             }
-            Console.Write("{0}", d);
+            Console.Write("{0}", n);
         }
 
         static void p10()
